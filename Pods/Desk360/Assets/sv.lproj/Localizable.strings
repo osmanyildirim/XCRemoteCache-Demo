@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Desk360
+
+  Created by samet on 14.06.2019.
+  
+*/
+
+"listing.nav.title" = "Kontakta oss";
+"listing.nav.create" = "Create";
+"listing.placeholder.title" = "Du har inte ringt något support-samtal ännu.";
+"listing.placeholder.submit" = "Skapa ett support-ärende";
+"listing.supports.title" = "My Support Requests";
+
+"create.nav.title" = "New Support Task";
+"create.form.name" = "Ditt fullständiga namn";
+"create.form.email" = "Din e-postadress";
+"create.form.message" = "Ditt meddelande";
+"create.from.subject" = "Subject";
+"create.form.request_type" = "Typ";
+"create.form.submit" = "Skicka";
+
+"conversation.input.placeholder" = "Message";
+"conversation.input.submit" = "Send";
+"conversation.expired" = "Skapa ny etikett";
+
+"ok.button" = "OK";
+"cancel.button" = "Avbryt";
+"update.button" = "Att uppdatera";
+"delete.button" = "Radera";
+"try.again.button" = "Försök igen";
+"continue.button" = "Fortsätt";
+
+"maintenace.alert.title" = "Under underhåll. Vänligen försök igen senare";
+"connection.error.message" = "Nätverksanslutningen misslyckades, försök igen.";
+"general.error.message" = "Ett fel uppstod. Vänligen kontakta administratören.";
+"server.error" = "Unknow Server Error";
+"subscription.expired" = "Your subscription period expired";
+
+"name_regex" = "Vänligen ange ett värde.";
+"email_regex" = "Skriv en giltig e-postadress.";
+"subject_regex" = "Vänligen fyll i de blanka fälten";
+"message_regex" = "Vänligen ange fler tecken i namnfältet";

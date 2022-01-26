@@ -1,0 +1,7 @@
+---
+cache_addresses:
+- http://localhost:8080/cache
+primary_repo: https://github.com/osmanyildirim/XCRemoteCache-Demo_1.git
+mode: producer
+final_producer_target: XCRemoteCache-Demo_1
+primary_branch: main

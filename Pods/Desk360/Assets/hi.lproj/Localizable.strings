@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Desk360
+
+  Created by samet on 14.06.2019.
+  
+*/
+
+"listing.nav.title" = "हमसे संपर्क करें";
+"listing.nav.create" = "Create";
+"listing.placeholder.title" = "अभी तक आपने कोई प्रोत्साहन कॉल नहीं किया है।";
+"listing.placeholder.submit" = "एक प्रोत्साहन कार्य का निर्माण करें";
+"listing.supports.title" = "My Support Requests";
+
+"create.nav.title" = "New Support Task";
+"create.form.name" = "आपका पूरा नाम";
+"create.form.email" = "आपका ई-मेल का पता";
+"create.form.message" = "आपका सन्देश ";
+"create.from.subject" = "Subject";
+"create.form.request_type" = "टाइप";
+"create.form.submit" = "भेजें";
+
+"conversation.input.placeholder" = "Message";
+"conversation.input.submit" = "Send";
+"conversation.expired" = "नया टिकट बनाएं";
+
+"ok.button" = "ठीक है";
+"cancel.button" = "रद्द करें";
+"update.button" = "अद्यतन करने के लिए";
+"delete.button" = "हटाएँ";
+"try.again.button" = "पुन: प्रयास करें";
+"continue.button" = "जारी रखें";
+
+"maintenace.alert.title" = "रखरखाव जारी है. बाद में पुन: प्रयास करें";
+"connection.error.message" = "नेटवर्क कनेक्शन विफल हो गया, कृपया पुनः प्रयास करें।";
+"general.error.message" = "एक त्रुटि हो गई। कृपया व्यवस्थापक से संपर्क करें।";
+"server.error" = "Unknow Server Error";
+"subscription.expired" = "Your subscription period expired";
+
+"name_regex" = "कृपया मान दर्ज करें।";
+"email_regex" = "कृपया एक वैध ई-मेल पता लिखें।";
+"subject_regex" = "कृपया रिक्त-स्थानों की पूर्ती करें";
+"message_regex" = "आपको नाम लिखने के स्थान पर और अधिक अक्षर लिखने चाहिएं ";

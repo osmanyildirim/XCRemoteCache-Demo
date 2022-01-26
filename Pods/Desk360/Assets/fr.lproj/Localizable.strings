@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Desk360
+
+  Created by samet on 14.06.2019.
+  
+*/
+
+"listing.nav.title" = "Contactez-nous";
+"listing.nav.create" = "Create";
+"listing.placeholder.title" = "Vous n'avez encore effectué aucun appel d'assistance.";
+"listing.placeholder.submit" = "Créer une tâche de support";
+"listing.supports.title" = "My Support Requests";
+
+"create.nav.title" = "New Support Task";
+"create.form.name" = "Votre nom complet";
+"create.form.email" = "Votre adresse email";
+"create.form.message" = "Votre message";
+"create.from.subject" = "Subject";
+"create.form.request_type" = "Sorte";
+"create.form.submit" = "Envoyer";
+
+"conversation.input.placeholder" = "Message";
+"conversation.input.submit" = "Send";
+"conversation.expired" = "Créer un nouveau ticket";
+
+"ok.button" = "OK";
+"cancel.button" = "Annuler";
+"update.button" = "Mettre à jour";
+"delete.button" = "Supprimer";
+"try.again.button" = "Recommencez";
+"continue.button" = "Continuer";
+
+"maintenace.alert.title" = "En maintenance. Veuillez réessayer plus tard";
+"connection.error.message" = "Perte de connexion réseau, veuillez réessayer plus tard.";
+"general.error.message" = "Une erreur s'est produite. Veuillez contacter l'administrateur.";
+"server.error" = "Unknow Server Error";
+"subscription.expired" = "Your subscription period expired";
+
+"name_regex" = "Veuillez saisir une valeur.";
+"email_regex" = "Veuillez écrire une adresse e-mail valide.";
+"subject_regex" = "Veuillez remplir les champs vides";
+"message_regex" = "Vous devriez taper plus de caractères dans le champ Nom";

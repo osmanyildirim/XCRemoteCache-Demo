@@ -13,9 +13,12 @@
 		4417FE8127A0C5E200EFF1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4417FE7F27A0C5E200EFF1E0 /* Main.storyboard */; };
 		4417FE8327A0C5E400EFF1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4417FE8227A0C5E400EFF1E0 /* Assets.xcassets */; };
 		4417FE8627A0C5E400EFF1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4417FE8427A0C5E400EFF1E0 /* LaunchScreen.storyboard */; };
+		A6ABCB439B1C4E8861B2388A /* Pods_XCRemoteCache_Demo_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0B1E4BB3927F13564A2D05 /* Pods_XCRemoteCache_Demo_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0628A9C1233AEE82F3A3C8B4 /* Pods-XCRemoteCache-Demo_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCRemoteCache-Demo_1.release.xcconfig"; path = "Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1.release.xcconfig"; sourceTree = "<group>"; };
+		3A0B1E4BB3927F13564A2D05 /* Pods_XCRemoteCache_Demo_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCRemoteCache_Demo_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4417FE7627A0C5E200EFF1E0 /* XCRemoteCache-Demo_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCRemoteCache-Demo_1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4417FE7927A0C5E200EFF1E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4417FE7B27A0C5E200EFF1E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		4417FE8227A0C5E400EFF1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4417FE8527A0C5E400EFF1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4417FE8727A0C5E400EFF1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9B4356BA8DCA6FACD7A403 /* Pods-XCRemoteCache-Demo_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCRemoteCache-Demo_1.debug.xcconfig"; path = "Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ABCB439B1C4E8861B2388A /* Pods_XCRemoteCache_Demo_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A191C5F91BB512F50521B93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B1E4BB3927F13564A2D05 /* Pods_XCRemoteCache_Demo_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4417FE6D27A0C5E200EFF1E0 = {
 			isa = PBXGroup;
 			children = (
 				4417FE7827A0C5E200EFF1E0 /* XCRemoteCache-Demo_1 */,
 				4417FE7727A0C5E200EFF1E0 /* Products */,
+				58E904AFC1FE8CAD5D650362 /* Pods */,
+				3A191C5F91BB512F50521B93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,15 @@
 			path = "XCRemoteCache-Demo_1";
 			sourceTree = "<group>";
 		};
+		58E904AFC1FE8CAD5D650362 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD9B4356BA8DCA6FACD7A403 /* Pods-XCRemoteCache-Demo_1.debug.xcconfig */,
+				0628A9C1233AEE82F3A3C8B4 /* Pods-XCRemoteCache-Demo_1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4417FE8A27A0C5E400EFF1E0 /* Build configuration list for PBXNativeTarget "XCRemoteCache-Demo_1" */;
 			buildPhases = (
+				95B55D6B14FFF447B64B8526 /* [CP] Check Pods Manifest.lock */,
+				12168B80DCA29461CCDF3050 /* [RC] RemoteCache_prebuild */,
 				4417FE7227A0C5E200EFF1E0 /* Sources */,
 				4417FE7327A0C5E200EFF1E0 /* Frameworks */,
 				4417FE7427A0C5E200EFF1E0 /* Resources */,
+				9C853BDE1DCEDA6DAF4DF694 /* [CP] Embed Pods Frameworks */,
+				1CA0BD6970C93916D9D296A7 /* [CP] Copy Pods Resources */,
+				44B6CD25B65F0D4A8856F8D9 /* [RC] RemoteCache_postbuild */,
+				5C9C34A078DBE8BA8BCEE7A8 /* [RC] RemoteCache_mark */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,115 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12168B80DCA29461CCDF3050 /* [RC] RemoteCache_prebuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			dependencyFile = "$(TARGET_TEMP_DIR)/prebuild.d";
+			files = (
+			);
+			inputPaths = (
+				"/Users/osmanyildirim/XCRemoteCache-Demo_1/XCRC/xcprebuild",
+			);
+			name = "[RC] RemoteCache_prebuild";
+			outputPaths = (
+				"$(TARGET_TEMP_DIR)/rc.enabled",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SCRIPT_INPUT_FILE_0\"";
+		};
+		1CA0BD6970C93916D9D296A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44B6CD25B65F0D4A8856F8D9 /* [RC] RemoteCache_postbuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			dependencyFile = "$(TARGET_TEMP_DIR)/postbuild.d";
+			files = (
+			);
+			inputPaths = (
+				"/Users/osmanyildirim/XCRemoteCache-Demo_1/XCRC/xcpostbuild",
+			);
+			name = "[RC] RemoteCache_postbuild";
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(MODULES_FOLDER_PATH)/$(PRODUCT_MODULE_NAME).swiftmodule/$(XCRC_PLATFORM_PREFERRED_ARCH).swiftmodule.md5",
+				"$(TARGET_BUILD_DIR)/$(MODULES_FOLDER_PATH)/$(PRODUCT_MODULE_NAME).swiftmodule/$(XCRC_PLATFORM_PREFERRED_ARCH)-$(LLVM_TARGET_TRIPLE_VENDOR)-$(SWIFT_PLATFORM_TARGET_PREFIX)$(LLVM_TARGET_TRIPLE_SUFFIX).swiftmodule.md5",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SCRIPT_INPUT_FILE_0\"";
+		};
+		5C9C34A078DBE8BA8BCEE7A8 /* [RC] RemoteCache_mark */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"/Users/osmanyildirim/XCRemoteCache-Demo_1/XCRC/xcprepare",
+			);
+			name = "[RC] RemoteCache_mark";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SCRIPT_INPUT_FILE_0\" mark --configuration \"$CONFIGURATION\" --platform \"$PLATFORM_NAME\"";
+		};
+		95B55D6B14FFF447B64B8526 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCRemoteCache-Demo_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C853BDE1DCEDA6DAF4DF694 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XCRemoteCache-Demo_1/Pods-XCRemoteCache-Demo_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4417FE7227A0C5E200EFF1E0 /* Sources */ = {
@@ -284,11 +423,13 @@
 		};
 		4417FE8B27A0C5E400EFF1E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9B4356BA8DCA6FACD7A403 /* Pods-XCRemoteCache-Demo_1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MX27P494CR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "XCRemoteCache-Demo_1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -301,21 +442,30 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fdebug-prefix-map=/Users/osmanyildirim/XCRemoteCache-Demo_1=$(XCRC_FAKE_SRCROOT)",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.osmanyildirim.XCRemoteCache-Demo-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				XCRC_FAKE_SRCROOT = /xxxxxxxxxx;
+				XCRC_PLATFORM_PREFERRED_ARCH = "$(LINK_FILE_LIST_$(CURRENT_VARIANT)_$(PLATFORM_PREFERRED_ARCH):dir:standardizepath:file:default=arm64)";
 			};
 			name = Debug;
 		};
 		4417FE8C27A0C5E400EFF1E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0628A9C1233AEE82F3A3C8B4 /* Pods-XCRemoteCache-Demo_1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MX27P494CR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "XCRemoteCache-Demo_1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +478,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.osmanyildirim.XCRemoteCache-Demo-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

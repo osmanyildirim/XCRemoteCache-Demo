@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Desk360
+
+  Created by samet on 14.06.2019.
+  
+*/
+
+"listing.nav.title" = "Bize Ulaşın";
+"listing.nav.create" = "Oluştur";
+"listing.placeholder.title" = "Henüz bir destek talebi oluşturmadınız";
+"listing.placeholder.submit" = "Bir destek talebi oluştur";
+"listing.supports.title" = "Destek Taleplerim";
+
+"create.nav.title" = "Yeni Destek Talebi";
+"create.form.name" = "İsim";
+"create.form.email" = "Mail Adresi";
+"create.form.message" = "Mesajınız";
+"create.from.subject" = "Başlık";
+"create.form.request_type" = "Konu Tipi";
+"create.form.submit" = "Gönder";
+
+"conversation.input.placeholder" = "Message";
+"conversation.input.submit" = "Send";
+"conversation.expired" = "Yeni Talep Ekle";
+
+"ok.button" = "Tamam";
+"cancel.button" = "İptal";
+"update.button" = "Güncelle";
+"delete.button" = "Sil";
+"try.again.button" = "Tekrar Dene";
+"continue.button" = "Devam Et";
+
+"maintenace.alert.title" = "Bakım çalışması yapılıyor. Lütfen daha sonra tekrar deneyiniz";
+"connection.error.message" = "Bir bağlantı hatası oluştu, lütfen tekrar deneyiniz.";
+"general.error.message" = "Bir hata oluştu, yönetici ile iletişime geçin.";
+"server.error" = "Unknow Server Error";
+"subscription.expired" = "Your subscription period expired";
+
+"name_regex" = "İsim alanına fazla karakter girmelisin.";
+"email_regex" = "Geçersiz email adresi girdiniz.";
+"subject_regex" = "Lütfen doldurunuz";
+"message_regex" = "Mesaj alanına birden fazla karakter girmelisiniz";

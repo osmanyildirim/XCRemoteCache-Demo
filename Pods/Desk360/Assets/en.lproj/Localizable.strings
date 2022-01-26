@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  Desk360
+
+  Created by samet on 14.06.2019.
+  
+*/
+
+"listing.nav.title" = "Contact Us";
+"listing.nav.create" = "Create";
+"listing.placeholder.title" = "You have made no support calls yet";
+"listing.placeholder.submit" = "Create a support task!";
+"listing.supports.title" = "My Support Requests";
+
+"create.nav.title" = "New Support Task";
+"create.form.name" = "Name Surname";
+"create.form.email" = "Email Address";
+"create.form.message" = "Message";
+"create.from.subject" = "Subject";
+"create.form.request_type" = "Type";
+"create.form.submit" = "Send";
+
+"conversation.input.placeholder" = "Message";
+"conversation.input.submit" = "Send";
+"conversation.expired" = "Create New Request";
+
+"ok.button" = "Ok";
+"cancel.button" = "Cancel";
+"update.button" = "Update";
+"delete.button" = "Delete";
+"try.again.button" = "Try Again";
+"continue.button" = "Continue";
+
+"maintenace.alert.title" = "Under Maintenance";
+"connection.error.message" = "Network connection failed, please try again.";
+"general.error.message" = "An error occurred. Please contact the administrator.";
+"server.error" = "Unknow Server Error";
+"subscription.expired" = "Your subscription period expired";
+
+"name_regex" = "Please Enter A Value.";
+"email_regex" = "Please enter a valid e-mail address";
+"subject_regex" = "Please Fill All Fields";
+"message_regex" = "You should type more characters to name field";
